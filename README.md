@@ -12,3 +12,6 @@ To run use NPM scripts (first clone then run npm install):
     npm run test to launch your unit tests with Karma. // No tests at the moment
 
     npm run test:auto to launch your unit tests with Karma in watch mode. // No tests at the moment
+
+![Welcome Window](https://raw.github.com/JasaNiklanovic/fourcon/scr1.png)
+![Game Window](https://raw.github.com/JasaNiklanovic/fourcon/scr2.png)
