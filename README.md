@@ -1,5 +1,5 @@
 # fourcon
-Four connect React sample with a Starwars theme ;)
+Four connect React sample with a Starwars theme since it was uploaded on May 4th ;)
 
 To run use NPM scripts (first clone then run npm install):
 
