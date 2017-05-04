@@ -1,0 +1,42 @@
+*,
+*:before
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  color: white;
+  background-image: url("http://wallpapercave.com/wp/ItmVuT6.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 700px;
+  margin: 10px auto;
+}
+
+.col {
+  display: inline-block;
+}
+
+.col--half {
+  width: 50%;
+}
+
+.align-right {
+  text-align: right;
+}
+
+#root{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.welcome-container a{
+  background: rgba(255, 255, 255, .2);
+  padding: 4em;
+  display: block;
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+}

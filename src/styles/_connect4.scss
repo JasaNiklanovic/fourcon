@@ -1,0 +1,26 @@
+// Connect4 variables
+$numColumns: 7;
+$numRows: 6;
+$cell-empty: rgba(238, 238, 238, .2);
+$cell-empty-hover: white;
+$cell-player-red: #e74c3c;
+$cell-player-blue: #2980b9;
+
+// Connect4 Components
+@import 'connect4/board';
+@import 'connect4/column';
+@import 'connect4/cell';
+@import 'connect4/status';
+
+
+.connect4-label {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+
+  &.connect4-label--failure {
+    color: $cell-player-red;
+  }
+}
+
